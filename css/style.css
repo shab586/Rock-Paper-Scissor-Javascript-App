@@ -1,0 +1,54 @@
+#container{
+	background-color: #1866e2;
+	border-radius: 15px;
+	width: 550px;
+	margin: 0 auto;
+}
+
+h1{
+font-family: 'Baloo Bhaijaan', cursive;
+}
+
+#userSelection{
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+}
+
+#results{
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+	font-family: 'Cuprum', sans-serif;
+	margin-top: 10px;
+}
+
+.selection{
+	float: left;
+	border: 5px #f8f8f8 solid;
+	border-radius: 15px;
+	margin: 15px;
+}
+
+.selection:nth-of-type(4){
+	border: none;
+	margin-top: 20px;
+}
+
+button{
+	background-color: purple;
+	color: white;
+	border-radius: 10px;
+	font-size: 22px;
+	width: 120px;
+	padding: 10px;
+}
+
+#shoot{
+	background-color: black;
+	margin-left: 165px;
+
+}
+body{
+	background-image: url(../img/rpsImage.png);
+}

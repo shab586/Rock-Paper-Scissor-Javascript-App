@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+	<div id="userSelection">
+		<h1>Select Your Choice</h1>
+		<div class="selection" id="rock">
+			<button onclick="playwith('rock')">Rock</button>
+		</div><!-- selection & rock-->
+		<div class="selection" id="paper">
+			<button onclick="playwith('paper')">Paper</button>
+		</div><!-- selection & paper-->
+		<div class="selection" id="scissors">
+			<button onclick="playwith('scissors')">Scissors</button>
+		</div><!-- selection & scissors-->
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="selection">
+			<button id="shoot" onclick="playgame()">Shoot</button>
+		</div><!-- selection & stone-->
+
+	</div><!--userSelection-->
+	<br><div id="results"></div>
+
+</div><!-- container-->
+<script src="js/script.js" type="text/javascript"></script>
+
+</body>
+</html>
